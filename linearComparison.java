@@ -1,4 +1,6 @@
 public class linearComparison{
+	
+
 	public static void main(String[] args){
 	int x1=3;
 	int y1=4;
@@ -13,6 +15,9 @@ public class linearComparison{
 	System.out.println(y2==(x1));
 	System.out.println(x2==(y1));
 	System.out.println(x2==(y2));
-
+	
+	System.out.println("Compare lines");
+	//System.out.println(x1.compareTo(5));
+	System.out.println(Integer.compare(x1,y2));
 	}
 }
