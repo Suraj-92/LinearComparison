@@ -1,6 +1,8 @@
 public class linearComparison{
-	
-
+	public void compare(){
+	Integer x=5;
+	System.out.println(x.compareTo(3));	
+}
 	public static void main(String[] args){
 	int x1=3;
 	int y1=4;
@@ -19,5 +21,9 @@ public class linearComparison{
 	System.out.println("Compare lines");
 	//System.out.println(x1.compareTo(5));
 	System.out.println(Integer.compare(x1,y2));
+		
+	System.out.println("CompareTomethod.....");	
+	linearComparison l=new linearComparison();
+	l.compare();
 	}
 }
